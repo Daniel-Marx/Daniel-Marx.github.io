@@ -1,0 +1,130 @@
+/* CSS practice on book */
+
+body {
+    line-height: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: no-repeat;
+    background-color: #CDEAAC;
+    background-image: url(../images/Stars1.jpg);
+    background-size:cover;
+    }   
+
+
+h1, blockquote, h2, footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1, h2 {
+    border: 1px solid #705E78;
+    background-color: #A5AAA3;
+    padding: 1rem;
+    width: fit-content;
+    text-align: center;    
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+ }
+
+ h1 {
+    Margin-top: 5rem;
+    
+}
+
+article {
+    width:75%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: #A5AAA3;
+    padding: 1rem;
+}
+
+ol {    
+    font-size: large;
+    font-style: italic;
+    color: #FEA443;
+    line-height: 2rem;
+    text-align: left;
+    border-left: none;
+    background: #705E78 url(http://placekitten.com/500/245) right 5px center no-repeat;
+    
+}
+
+a {
+    font-size:large;
+    text-decoration: none;
+    color:#F3FEB0;  
+    background-color: #812F33;
+}
+
+a:hover{
+    color:green;
+    font-size:larger;
+    font-weight: bolder;
+    background-color: #A5AAA3;
+}
+
+Blockquote{
+    background: #705E78 ;
+    color:#FEA443;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid lightblue;
+    border-left: 10px solid lightblue;
+}
+
+.cite1{
+    background: lightblue;
+    color:hotpink;
+    margin-bottom: 0.5rem;
+}
+
+.dashedborder{
+    border: 0.5px dashed #571316;
+}
+
+.thisbewild {
+    text-align: center;
+    font-size: x-large;
+    line-height: 2.25rem;
+    background:white;
+    border: solid 3px black;
+}
+
+#myid{
+    font-size: smaller;
+}
+
+Footer {
+    background:white;
+    border: solid 1px black;
+    width: 80%;
+    Padding: 0rem;
+    margin: 0 auto; 
+    margin-bottom: 2rem;
+}
+footer cite{
+    background-color: lightgray;
+}
+
+.fireback {
+    color:white;
+    background-image:  url(https://media.krem.com/assets/KREM/images/467115771/467115771_750x422.jpg);
+}
+.floatleft {
+    float:left;
+}
+
+.coolcage1 {
+    Border: 0.5px solid black;
+    margin: 0 1rem 0 0rem;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    padding-bottom: 3rem;
+
+}
+nav ul li {
+    display: inline-block;
+}

@@ -1,0 +1,99 @@
+/* my first css */
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #ffffcc;
+}
+img {
+    
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+    text-align: center;
+    background-color: black;
+    color:hotpink;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    background: black no-repeat center url(http://placekitten.com/900/150/);
+    color:white;
+    font-weight: bold;
+}   
+cite {
+    font-size: 2rem;
+    background-color: black;
+}
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.sandwichback {
+    text-align: center;
+    border: 0.25rem dashed lightpink;
+    background-color: lightskyblue;
+}   
+.list1{
+    font-style: italic;
+    color: red;
+}
+.list2 {
+    font-weight: bolder;
+    color: blue;
+}
+.list3 {
+    font-size: larger;
+    font-style: italic;
+    color: purple   ;
+}
+.list4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.5rem;
+    color: green;
+}
+.finelinksborder {
+    text-align: center;
+    border: purple 10px solid;
+}
+.sandwichspacing {
+    line-height: 1.5rem;
+}
+.textdecorationoff {
+    text-decoration: none;
+}
+.makered {
+    color: red;
+}
+.makebold {
+    font-weight: bolder;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul a:link {
+      font-weight: bold;
+      text-decoration: none;
+      color: limegreen;
+      font-size: 2rem;
+  }
+  a:visited {
+      color:red;
+      font-weight:bold;
+  }
+  a:hover {
+    color:black;
+    text-decoration: underline;
+}
+.textincenter{
+    text-align: center;
+}
+a.harvard:link {
+    color: maroon;
+}
