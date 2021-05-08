@@ -5,8 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: no-repeat;
     background-color: #CDEAAC;
-    background-image: url(../images/Stars1.jpg);
-    background-size:cover;
+    background-image: url(../Images/library1.jpg);
+    background-size:contain;
     }   
 
 
