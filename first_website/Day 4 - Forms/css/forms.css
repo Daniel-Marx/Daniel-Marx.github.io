@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url(../img/galaxy.jpg);
+	background-size: cover;
 	
 }
 .wrapper {

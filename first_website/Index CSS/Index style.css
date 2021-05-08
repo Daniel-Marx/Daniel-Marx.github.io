@@ -13,8 +13,6 @@ body {
     border: 0px solid red;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #598891;
-    background-image: url(../Images/Ocean_main.jpg);
-    background-size:contain;
     border-radius: 5px;
 }
 .wrapper {
@@ -92,22 +90,20 @@ h2 {
     margin-top: 1.5rem ;
 }
 
-ul {
-    border: black 0px solid;
-    }
+
 
     blockquote {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1.5rem;
         font-style: italic;
         text-align: center;
-        background: black no-repeat center url(http://placekitten.com/900/150/);
+        background: black no-repeat center url(http://placekitten.com/600/150/);
         color:white;
         font-weight: bold;
-        width: 900px;
+        width: 600px;
         height: 150px;
         display: block;
-        margin: 0 auto;
+        margin: 1.5rem auto 2rem auto;
         padding-top: 1rem;
         border: 0.5px black solid;
         text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
@@ -125,7 +121,7 @@ section {
     border-radius: 5px;
     border: 1px dashed black;
     display: block;
-    margin: 1rem;
+    margin: 2rem;
     background-color: #539999;
     width:fit-content;
     padding-left: 1rem;
@@ -136,6 +132,7 @@ section {
 img {
     border: 0.5px black solid;
 }
+
 
 .floatleft {
     float: left;
@@ -179,48 +176,121 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.upperromanlist {
-    list-style-type: upper-roman;
+
+.index{
+    background-image: url(../Images/Ocean_main.jpg);
+    background-size: contain;
 }
 
-.circlebullet {
+.hobbiesul {
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 .sodwanapic {
     display: block;
     margin: 2rem auto;
 }
+.sammichsection {
+    padding: 2rem 1 rem;
+}
+.sammich {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+}
+.sammichlist {
+        list-style-type: upper-roman;
+        margin-right: 1rem;
+        padding-top: 1rem;  
+}
 .sammichpic {
     width: 300px;
-    margin-right:20%;
-    margin-bottom: 1rem;
-}
-section:after {
-    content: "";
-    display: table;
-     clear: both; 
-}
-
-section img {
-    margin: 0.5rem 1rem 0.5rem 1rem;
-}
-.forestback {
-    background-image: url(../Images/forest1.jpg);
-    background-size: contain;
-    border: 0px solid red;
+    margin-right:0.5rem;   
+    flex-basis: auto;
     
 }
 
 .hobbies {
-    display: inline-block;
-}
-.sziget {
-    margin-right:10%;
-    display: block;
+    display: flex;
+    flex-flow: nowrap row;
+    Padding: 1rem;
 
-}   
+    
+}
+
 .centersec {
     margin-left: auto;
     margin-right: auto;
 }
+
+.hobbieslist {
+    flex-basis: 40%;
+    justify-content: flex-start ;
+    padding-right: 1.5rem;
+    
+    
+    
+
+}
+.sziget {
+    margin-right:10%;
+    display: block;
+    flex-basis: 60%;
+    justify-content:  flex end;
+
+}   
+
+.lines {
+    text-align: left;
+    margin: 2rem auto 3rem auto;
+    padding: 1rem 2rem;
+
+}
+.hr-1 {
+    width: 100%;      
+    border-bottom: 2px solid black;
+}
+
+.hr-2 {  
+    width: 80%;  
+    border-bottom: 2px solid #E8E4E5;
+}
+.hr-3 {  
+    width: 60%;  
+    border-bottom: 2px solid red;
+}
+.hr-4 {  
+    width: 40%;  
+    border-bottom: 2px solid #E8E4E5;
+}
+.hr-5 {  
+    width: 20%;  
+    border-bottom: 2px solid black;
+}
+
+.links {
+    padding-bottom: 1.5rem;
+}
+
+/* About Page */
+
+.about  {
+    padding-left: 2rem;
+    background-image: url(../Images/forest1.jpg);
+    background-size: contain;
+}
+.about p, .about img, .hobbiespage p, .hobbiespage img {
+    margin-left: 2rem;
+}
+.about img {    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* hobbies page */
+
+.hobbiespage {
+    background-image: url(../Images/Beach1.jpg);
+    background-size: cover;
+}
+
