@@ -32,13 +32,11 @@ section {
 }
 aside {
 	flex-basis: 33%;
-	border-left: 1px dashed #36568F;
+	border-left: 1px solid #36568F;
 	padding-left: 1rem;
-	height: fit-content;
-	max-width: 33%;
 
 }
-	aside iframe, aside address, aside h2, aside img {
+	aside iframe, aside address, aside h3, aside h4, aside img {
 		max-width: 100%;
 
 	}
