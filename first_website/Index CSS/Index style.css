@@ -27,15 +27,20 @@ article {
 
     width:75%;
     margin: 3rem auto;
-    background-color: #598891;
-    padding: 1rem;
-    padding-bottom: 2rem;
+    background-color: #017181;
+    padding: 1rem 1rem 2rem 1rem;
+
     border: 2px solid #34777B;
     
 }
-
+a {
+    text-decoration: none;
+}
 nav {
     padding-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto; 
     
 }
 
@@ -47,7 +52,7 @@ nav ul {
     display:block;
     color: white;
     Padding: 0 0.25rem;
-    margin: 0 auto;
+    margin: 0 1rem;
     text-align: center;
     }
 nav ul li {
@@ -78,12 +83,13 @@ h1 {
     font-weight: bold;
     text-decoration: underline;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #598891;
+    background-color: #017181;
     width: fit-content;
     display: block;
     margin: 0 auto;
     padding: 0.25rem 1rem;
     border: 2px solid #34777B;
+    margin-top: 1rem;
 }
 h2 {
     padding-left: 1.5rem;
@@ -91,20 +97,34 @@ h2 {
 }
 
 
+.quotes {
+    width: 650px;
+    height: 150px;
 
+    margin: 1.5rem auto 2rem auto;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+
+      
+}
     blockquote {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1.5rem;
         font-style: italic;
         text-align: center;
-        background: black no-repeat center url(http://placekitten.com/600/150/);
+        background: black no-repeat center url(http://placekitten.com/650/150/);
         color:white;
         font-weight: bold;
-        width: 600px;
-        height: 150px;
-        display: block;
-        margin: 1.5rem auto 2rem auto;
-        padding-top: 1rem;
+        width: 100%;
+        height: 100%;
+
+        margin: 1rem;
+
+
         border: 0.5px black solid;
         text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     }
@@ -112,8 +132,8 @@ h2 {
 cite {
             font-size: 1rem;
             background-color: black;
-            width: 900px;
-            height: 150px;
+            margin-top: 1rem;
+
             
 }
 
@@ -146,7 +166,11 @@ img {
 }
 
 .welcomepic {
-    margin: 2rem;
+    margin: 2rem auto;
+    width: fit-content;
+}
+.welcomepic img {
+    width: 100%;
 }
 .centertext {
     text-align:center;
@@ -178,16 +202,16 @@ img {
 }
 
 .index{
-    background-image: url(../Images/Ocean_main.jpg);
-    background-size: contain;
+    background-image: url(../Images/oceanback1.jpeg);
+    background-size: cover;
+    
 }
 
-.hobbiesul {
-    list-style-type: circle;
-    list-style-position: outside;
-}
 .sodwana {
     width: 60%;
+}
+.sodwana h2 {
+    padding-left: 0;
 }
 .sodwanapic {
     margin: 2rem auto;
@@ -202,18 +226,27 @@ img {
 .sammich {
     display: flex;
     flex-flow: nowrap row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
 }
 .sammichlist {
-        list-style-type: upper-roman;
         margin-right: 1rem;
-        padding-top: 1rem;  
+        padding-top: 0.5rem;  
+        width: 100%;
+        flex-basis: 40%;
+}
+.sammichlist ol {
+    list-style-type: upper-roman;
 }
 .sammichpic {
-    width: 300px;
     margin-right:0.5rem;   
-    flex-basis: auto;
+    flex-basis: 60%;
     
+}
+.pbj {
+    width: 300px;
+    border: 1px solid black;
+    width: 100%;
 }
 .centersec {
     margin-left: auto;
@@ -223,24 +256,32 @@ img {
     display: flex;
     flex-flow: nowrap row;
     Padding: 1rem;
-    width: 75%;
+    width: 80%;
     justify-content: space-between;
 
     
 }
-
-
-
 .hobbieslist {
     flex-basis: 40%;
     padding-right: 1.5rem;
 }
+
+.hobbiesul {
+    list-style-type: circle;
+    list-style-position: outside;
+}
 .sziget {
-    margin-right:10%;
-    display: block;
-    flex-basis: 60%;  
-       
+    margin-right:5%;
+    flex-basis: 60%;
+    text-align: right;  
+
+          
 }   
+.szigetpic {
+    display: block;
+    border: black solid 1px;
+    width: 100%;
+}
 
 .lines {
     text-align: left;
@@ -278,15 +319,30 @@ img {
 
 .about  {
     padding-left: 2rem;
+    padding-right: 2rem;
     background-image: url(../Images/forest1.jpg);
-    background-size: contain;
+    background-size: cover;
+}
+.about article {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .about p, .about img, .hobbiespage p, .hobbiespage img {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .about img {    
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.businesscat, .kittenpic {
+    width: fit-content;
+}
+
+.businesscat img, .kittenpic img {
+    width: 100%;
+    border: black solid 1px;
 }
 
 /* hobbies page */
@@ -294,6 +350,7 @@ img {
 .hobbiespage {
     background-image: url(../Images/Beach1.jpg);
     background-size: cover;
+    
 }
 
 section:after {
