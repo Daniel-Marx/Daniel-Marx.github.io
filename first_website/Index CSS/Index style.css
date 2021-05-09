@@ -186,12 +186,18 @@ img {
     list-style-type: circle;
     list-style-position: outside;
 }
+.sodwana {
+    width: 60%;
+}
 .sodwanapic {
-    display: block;
     margin: 2rem auto;
+    display: block;
+    width: 90%
+    
 }
 .sammichsection {
-    padding: 2rem 1 rem;
+    padding: 2rem 1 rem;    
+    width: 70%;
 }
 .sammich {
     display: flex;
@@ -209,35 +215,31 @@ img {
     flex-basis: auto;
     
 }
-
-.hobbies {
-    display: flex;
-    flex-flow: nowrap row;
-    Padding: 1rem;
-
-    
-}
-
 .centersec {
     margin-left: auto;
     margin-right: auto;
 }
+.hobbies {
+    display: flex;
+    flex-flow: nowrap row;
+    Padding: 1rem;
+    width: 75%;
+    justify-content: space-between;
+
+    
+}
+
+
 
 .hobbieslist {
     flex-basis: 40%;
-    justify-content: flex-start ;
     padding-right: 1.5rem;
-    
-    
-    
-
 }
 .sziget {
     margin-right:10%;
     display: block;
-    flex-basis: 60%;
-    justify-content:  flex end;
-
+    flex-basis: 60%;  
+       
 }   
 
 .lines {
@@ -294,3 +296,7 @@ img {
     background-size: cover;
 }
 
+section:after {
+    content: "";
+    display: table;
+     clear: both; }
