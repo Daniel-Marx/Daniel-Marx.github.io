@@ -29,7 +29,7 @@
 
 		<section>
 			<h1>Alien Abduction Order Form</h1>
-			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+			<p>Please fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
 		<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
 
 			<input type="hidden"  name="send_to" value="danielmarxprivate@gmail.com">
@@ -73,13 +73,15 @@
 					<option value="whales">Whale watching</option>
 				</select>
 			</fieldset>
-				<fieldset>
-				<label for="comemnts">
-				Special requests:</label>
-				<textarea id="comments" name="comments" placeholder="Let us know how to give you the best experience we can"></textarea>
+
+			<fieldset>
+			<legend> Special requests</legend>
+			<label for="comments">
+			
+			<textarea id="comments" name="comments" placeholder="Let us know how to give you the best experience we can."></textarea>
 
 
-			<label>	
+
 			<input type="checkbox" value="subscribe" name="subscribe" id="subscribe" checked>Add me to your email list!
 			</label>
 			</fieldset>
