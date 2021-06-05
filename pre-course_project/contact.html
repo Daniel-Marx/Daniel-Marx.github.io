@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
+    <title>Contact Sheet</title>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <a id="top"></a>
+        
+
+        <nav id="navbar">    
+            <ul>
+                <li><a href="./index.html"> Home </a></li>
+                <li><a href="./about.html"> About </a></li>
+                <li><a href="./contact.html"> Contact </a></li>  
+            </ul>            
+        </nav>
+
+        <div class="contact-page-back">
+        <div class="contact-page" id="contact-page">
+
+        <section>
+            <div class="contact-head">
+			<h1>Contact Form</h1>
+			<p class="feedback-text">If you would like to leave feedback about my project, please fill in the form below.</p>
+            </div>
+
+			<fieldset>
+			<legend>Your contact information</legend>
+			<label for="firstName">First Name</label>
+				<input type="text" id="firstName" name="firstName"> 
+            <label for="lastName">Last Name</label>
+				<input type="text" id="lastName" name="lastName" placeholder="(Not required)">     
+			<label for="email">Email</label>
+				<input type="email" id="email" name="email"> 
+		    </fieldset>
+
+			<fieldset>
+			<legend>Bonus question!</legend>
+
+				
+			<label for="music">What is your favourite genre of music?</label>
+				<select id="music" name="music">
+					<option selected> Select one... </option>
+					<option value="rock">Rock</option>
+					<option value="hipHop">Hip Hop</option>
+					<option value="electronic">Electronic</option>
+					<option value="jazz">Jazz</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+			<legend> Comments </legend>
+			<label for="comments">
+			
+			<textarea id="comments" name="comments" placeholder="Is there anything in particular that stood out to you?"></textarea>
+			</label>
+			<button disabled id="submit">
+				<span class="clickhere">Click here to submit your form</span>
+				</button>
+			</fieldset>
+
+
+
+
+
+		</section>
+
+		<footer class="footer"> 
+
+			<p id="languages" class="languages"></p>
+			<ul class="footernav">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+	  
+			</ul>  
+	  
+			
+		  </footer>
+
+
+
+
+
+
+      
+    </div>
+    </div>
+    </div>
+
+    <script src="contact.js"></script>
+    
+</body>
+</html>
